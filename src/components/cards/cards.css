@@ -1,0 +1,870 @@
+.card-box{
+    width: 350px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: 2.5rem 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -2rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2.7rem;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: large;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 50px;
+    font-weight: 450;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 2.5rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: 1rem;
+}
+.btn-getStarted-card{
+    padding: 1rem 2.5rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    color: #5175ff;
+    margin-top: 15px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+
+@media screen and (max-width:1044px) {
+    .card-box{
+    width: 350px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -1.5rem;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: large;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 50px;
+    font-weight: 450;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1.8rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: 1rem;
+}
+.btn-getStarted-card{
+    padding: 1rem 2.5rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    color: #5175ff;
+    margin-top: 15px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:846px) {
+    .card-box{
+    width: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -1.2rem;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: large;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 50px;
+    font-weight: 450;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1.15rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .7rem;
+}
+.btn-getStarted-card{
+    padding: .58rem 2rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:803px) {
+    .card-box{
+    width: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -1.2rem;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 14px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 40px;
+    font-weight: 550;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1.15rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .7rem;
+}
+.btn-getStarted-card{
+    padding: .48rem 1.8rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:746px) {
+    .card-box{
+    width: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -3rem;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 14px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 40px;
+    font-weight: 550;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1.15rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .7rem;
+}
+.btn-getStarted-card{
+    padding: .2rem 1.2rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 4px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:690px) {
+    .card-box{
+    width: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -3rem;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 40px;
+    font-weight: 550;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1.15rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .7rem;
+}
+.btn-getStarted-card{
+    padding: .2rem 1.2rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 4px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:680px) {
+    .card-box{
+    width: 280px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -2rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 50px;
+    font-weight: 570;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 2.5rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: 1.2rem;
+}
+.btn-getStarted-card{
+    padding: 1rem 2.5rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:476px) {
+    .card-box{
+    width: 240px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: 1.8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -7rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box-price{
+    font-size: 50px;
+    font-weight: 570;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 2.5rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: 1.2rem;
+}
+.btn-getStarted-card{
+    padding: 1rem 2.5rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:389px) {
+    .card-box{
+    width: 240px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .7rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -3rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.box-price{
+    font-size: 40px;
+    font-weight: 600;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .72rem;
+}
+.btn-getStarted-card{
+    padding: .7rem 2rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:370px) {
+    .card-box{
+    width: 240px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -10rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.box-price{
+    font-size: 40px;
+    font-weight: 600;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .72rem;
+}
+.btn-getStarted-card{
+    padding: .7rem 2rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:340px) {
+    .card-box{
+    width: 240px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -1.8rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.box-price{
+    font-size: 40px;
+    font-weight: 600;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .72rem;
+}
+.btn-getStarted-card{
+    padding: .7rem 2rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:303px) {
+    .card-box{
+    width: 240px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .6rem .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -2rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.box-price{
+    font-size: 30px;
+    font-weight: 600;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .6rem;
+}
+.btn-getStarted-card{
+    padding: .6rem 1.3rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
+
+@media screen and (max-width:293px) {
+    .card-box{
+    width: 240px;
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    padding: .6rem .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: relative;
+    bottom: -5rem;
+    z-index: 9;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: poppins;
+}
+.card-wrapper::nth-child(2){
+    background-color: rgb(18, 116, 207);
+}
+.box-type{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.box-price{
+    font-size: 30px;
+    font-weight: 600;
+}
+.box-nUsers{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+}
+
+.same{
+    color: rgba(70, 69, 69, 0.7);
+    margin-bottom: .6rem;
+}
+.btn-getStarted-card{
+    padding: .6rem 1.3rem;
+    background-color: rgba(39, 136, 228,.4);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5175ff;
+    margin-top: 8px;
+}
+.bbg{
+     background: url('../../assets/images/bg-pattern-pricing.44408ab5.svg')  ;
+     background-position: -16.35rem -16rem;
+    background-color: #5175ff;
+    font-weight: 500;
+    
+}
+.bbg .btn-getStarted-card{
+    background-color: #fff;
+    color: #5175ff;
+}
+}
