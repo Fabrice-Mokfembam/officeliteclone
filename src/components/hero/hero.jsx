@@ -5,7 +5,7 @@ import charts from '../../assets/images/jll.svg'
 function Hero() {
   return (
       <div className='main-hero-container'>
-          <div className="hero-text-part">
+          <div data-aos='fade-up'  data-aos-duration="3000">
               <h1 className="head-text">
                   A simple solution to <br /> complex tasks is <br /> coming soon
               </h1>
@@ -15,7 +15,7 @@ function Hero() {
 
               <button className='btn-getStarted'>Get Started</button>
           </div>
-          <div className="svg-img-part">
+          <div data-aos='zoom-in' data-aos-duration="3000" className="svg-img-part">
               <img className='hero-img' src={charts} alt="charts" />
            </div>
     </div>
