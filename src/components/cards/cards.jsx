@@ -5,7 +5,7 @@ function Cards() {
   return (
     <div className='cards-main-container'>
       <div className="card-wrapper">
-        <div className="card-box">
+        <div data-aos="zoom-in" data-aos-duration="2000"  style={{ zIndex: 9 }} className="card-box">
           <div className="box-type">Basic</div>
           <div className="box-price">free</div>
           <div className="box-nUsers">Up to 5 users for free</div>
@@ -14,7 +14,7 @@ function Cards() {
           <div className="box-security same">Great security and support</div>
           <button className='btn-getStarted-card'>try for free</button>
         </div>
-        <div className="card-box bbg">
+        <div data-aos="zoom-in" data-aos-duration="3000"  style={{ zIndex: 9 }} className="card-box bbg">
           <div className="box-type">Basic</div>
           <div className="box-price">free</div>
           <div className="box-nUsers">Up to 5 users for free</div>
@@ -23,7 +23,7 @@ function Cards() {
           <div className="box-security same ">Great security and support</div>
           <button className='btn-getStarted-card'>try for free</button>
         </div>
-        <div className="card-box">
+        <div data-aos="zoom-in" data-aos-duration="2000"  style={{ zIndex: 9 }} className="card-box">
           <div className="box-type">Basic</div>
           <div className="box-price">free</div>
           <div className="box-nUsers">Up to 5 users for free</div>

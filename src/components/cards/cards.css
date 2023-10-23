@@ -12,6 +12,13 @@
     position: relative;
     bottom: -2rem;
     z-index: 9;
+    transition-property: transform;
+    transition-duration: 8s;
+    transition-timing-function: ease;
+    
+}
+.card-box:hover{
+    scale: 1.1;
 }
 .card-wrapper{
     display: flex;
