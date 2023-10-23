@@ -25,6 +25,10 @@
     font-size: 16px;
     margin-top: 2rem;
 }
+.btn-getStarted:hover{
+    background-color: #fff;
+    color: rgb(39, 136, 228);;
+}
 .hero-text-part{
    margin-top: 3rem;
 }
